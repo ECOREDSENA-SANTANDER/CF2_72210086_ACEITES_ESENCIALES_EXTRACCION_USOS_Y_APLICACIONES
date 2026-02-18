@@ -2,508 +2,701 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+      <Actividad :cuestionario="cuestionario"/>
   
-      #Actividad_Completar_Frases
-      <ActividadCompletar :parrafo="parrafo"/>
-
-      #Actividad_Cuestionario
-      //<Actividad :cuestionario="cuestionario"/>
-  
-  </template>
+</template>
 
 <script>
-import ActividadCompletar from '@/views/plantilla/actividadCompletar/ActividadCompletar.vue'
 import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 
 export default {
   name: 'ActividadDidactica',
   components: {
-    ActividadCompletar,
     Actividad,
   },
   data: () => ({
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: require('@/assets/actividad/imagen5.png'),
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
-    },
     cuestionario: {
-      tema: 'Nombre del CF',
+      tema:
+        'Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> Verificar la comprensión de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Los aceites esenciales se caracterizan principalmente por?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Ser mezclas sintéticas de fragancias industriales.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+                'Contener compuestos volátiles extraídos exclusivamente con solventes químicos.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
+              texto:
+                'Estar formados por compuestos aromáticos volátiles de origen vegetal.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Presentar una composición uniforme sin variaciones químicas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Una diferencia clave entre un aceite esencial y un aceite vegetal es qué?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Los aceites esenciales siempre se diluyen en agua.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Los extractos se obtienen mediante procesos físicos sin solventes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto:
+                'Los aceites esenciales conservan compuestos volátiles responsables del aroma.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Ambos productos poseen exactamente la misma composición química.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿La evaluación olfativa de un aceite esencial permite principalmente?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Determinar su pureza y calidad aromática.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Identificar su color y densidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Medir su toxicidad en animales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Establecer su precio comercial.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿En la industria jabonera, los aceites esenciales se utilizan principalmente para?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar la espuma del jabón.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Actuar como conservantes sintéticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reemplazar completamente los aceites vegetales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aportar fragancia y propiedades funcionales al producto.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Un aceite esencial como el de lavanda es valorado especialmente por su?',
+          imagen: require('@/assets/actividad/imagen05.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Capacidad colorante intensa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aroma agradable y efecto calmante.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Alto contenido de grasas saturadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso exclusivo en alimentos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿La variación en la composición química de un aceite esencial puede depender de?',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El método de evaluación olfativa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El origen botánico y las condiciones de cultivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El tipo de envase comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La marca que lo distribuye.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿En ambientadores naturales, aceites como la citronela y la limonaria se usan por qué?',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminan completamente las bacterias del aire.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituyen el oxígeno ambiental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aportan aromas frescos y ayudan a desodorizar espacios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Son inodoros y neutros.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿El término “nota aromática” en evaluación olfativa hace referencia a?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La concentración química del aceite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La sensación olfativa percibida en distintas etapas del aroma.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El color del aceite esencial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La temperatura de almacenamiento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿El aceite esencial de romero se emplea comúnmente por sus propiedades?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sedantes exclusivamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Estimulantes y refrescantes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Dulces y frutales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Neutras y sin aroma.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Un criterio importante para evaluar la calidad de un aceite esencial es?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Que tenga un aroma artificial intenso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Que sea completamente incoloro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Que presente un perfil aromático coherente con su origen botánico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Que se disuelva totalmente en agua.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Los aceites esenciales se consideran sustancias concentradas, por lo que?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Pueden usarse sin ninguna precaución.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Deben aplicarse siempre en grandes cantidades.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Requieren un uso responsable y dosis adecuadas.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'No generan ningún efecto secundario.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿En la caracterización de aceites esenciales, la evaluación sensorial es importante por qué?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sustituye completamente los análisis químicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permite identificar adulteraciones o deterioro del aroma.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Determina el contenido nutricional del aceite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Define su vida útil exacta.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿El aceite esencial de menta se caracteriza principalmente por?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Un aroma cálido y dulce.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Un olor neutro sin intensidad.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Un aroma fresco y efecto refrescante.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Un color oscuro intenso.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿La caracterización de aceites esenciales incluye aspectos cómo?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Aroma, origen botánico y propiedades funcionales.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Precio, marca y presentación comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tamaño del envase y tipo de etiqueta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Preferencias personales del consumidor.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿El aceite esencial de clavo se utiliza frecuentemente por su?',
+          imagen: require('@/assets/actividad/imagen05.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Aroma suave y floral.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ausencia total de compuestos activos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aroma intenso y propiedades antisépticas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Uso exclusivo en cosmética decorativa.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿En productos artesanales, los aceites esenciales son preferidos porque?',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Son más económicos que los sintéticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'No requieren etiquetado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aportan aroma natural y valor agregado al producto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminan la necesidad de otros ingredientes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿El uso del nombre científico de una planta es importante por qué?',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mejorar su aroma con el tiempo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Perder propiedades y alterar su perfil olfativo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Volverse completamente sólido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aumentar su concentración.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿El rendimiento de un aceite esencial depende en gran medida de?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Su aroma neutro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sus propiedades aromáticas y antisépticas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Su uso exclusivo en perfumes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Su alto contenido de agua.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 19,
+          texto: '¿En aromaterapia, los aceites esenciales deben ser?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Únicamente instrumentos tecnológicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La percepción sensorial entrenada del evaluador.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Análisis matemáticos complejos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La adición de colorantes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿La normativa sobre aceites esenciales varía entre países por qué?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar completamente los riesgos de uso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir todos los productos industriales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aprovechar sus propiedades de forma segura y funcional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Garantizar resultados idénticos en todos los contextos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre los Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
