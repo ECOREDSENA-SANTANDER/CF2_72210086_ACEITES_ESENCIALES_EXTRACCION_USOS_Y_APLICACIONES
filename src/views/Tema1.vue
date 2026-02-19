@@ -258,10 +258,15 @@
 
       p.mb-3 Constituye un criterio fundamental en la caracterización de los aceites esenciales, ya que el nombre de un país o de una región aporta información relevante sobre el biotipo o entorno en el que se desarrolla la planta aromática.
 
+      .row.justify-content-center.g-0.mb-4
+        .col-lg-8.ps-lg-0
+          .cajon.color-primario.p-4.p-lg-5.h-100
+            p Factores como el clima, el tipo de suelo, la altitud, la humedad y las condiciones ambientales propias de cada región influyen de manera directa en la composición química del aceite esencial. Por ejemplo, el aceite esencial de geranio (Pelargonium graveolens) cultivado en la isla de Reunión, cerca de Madagascar, presenta una composición diferente a la obtenida de la misma especie cultivada en China. Estas variaciones son tan significativas que, incluso en el mercado internacional, ambos aceites se comercializan bajo denominaciones distintas, reflejando su origen y perfil bioquímico particular.
+        .col-lg-4.pe-lg-0
+          .bg1.h-100
+            img.w-100.h-100(src='@/assets/curso/Tema1/img05.png', alt='')
 
-
-
-
+      p.mb-4 Si quieres, puedo ayudarte a unificar el estilo de este apartado con otros criterios de calidad (certificación botánica, quimiotipo, método de extracción, etc.) para que todo el capítulo mantenga una línea homogénea.
 
   </template>
 
