@@ -536,9 +536,9 @@
             p #[b Aceites esenciales:] poseen aplicaciones más amplias, incluyendo usos terapéuticos, cosméticos y farmacológicos, siempre que se utilicen bajo criterios adecuados de seguridad.
           .col-md-9.col-lg-6
             figure
-              img(src='@/assets/curso/Tema1/ac03.png', alt='')
+              img(src='@/assets/curso/Tema1/ac04.png', alt='')
 
-        
+
 
 
 
