@@ -7,7 +7,7 @@
         span 2
       h1 Usos farmacológicos 
 
-    .bloque-texto-g.bloque-texto-g--inverso.bg1.p-3.p-sm-4.p-md-5.mb-4 
+    .bloque-texto-g.bloque-texto-g--inverso.bg1.p-3.p-sm-4.p-md-5.mb-4(data-aos='fade-right') 
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Tema2/img01.png')})`}"
       )
@@ -16,7 +16,7 @@
           br
           br
     
-    .fondot2.p-5.mb-4
+    .fondot2.p-5.mb-4(data-aos='fade-right')
       .tarjeta.tarjeta--gris.p-4
         PasosB.color-primario
           .row.justify-content-center(titulo="")
@@ -74,7 +74,7 @@
               h4 Aldehídos
               p Dentro de los aceites esenciales se encuentran dos tipos principales de aldehídos. El citral, presente en el aceite de hierba de limón, posee efectos antivirales y antisépticos. El citronelal, presente en el aceite de citronela, presenta propiedades sedantes y antiinflamatorias.
 
-          .row.justify-content-center(titulo="")
+          .row.justify-content-center(titulo="")(data-aos='fade-right')
             .col-lg-6.col-md-9.mb-3
               figure
                 img(src='@/assets/curso/Tema2/img09.png', alt='')
@@ -192,12 +192,12 @@
     #t_2_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
       h2 2.1 Usos en la odontología
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4(data-aos='fade-right')
       .col-lg-7
         p Los aceites esenciales han adquirido una relevancia creciente en el ámbito odontológico, y su utilización ha aumentado en los consultorios debido a las propiedades terapéuticas de sus aromas, así como a sus efectos curativos y antisépticos. Estos compuestos naturales contribuyen al control de infecciones, a la desinfección de tejidos y al bienestar del paciente durante los procedimientos clínicos.
-        .cajon.color-secundario.p-3.p-lg-4.h-100
+        .cajon.color-secundario.p-3.p-lg-4.h-100.mb-3
           p.py-3 El uso de determinados aromas en los consultorios odontológicos, como la lavanda, genera efectos relajantes en los pacientes, contribuyendo a la disminución de la ansiedad asociada a los tratamientos dentales y al dolor percibido durante procedimientos como la inserción de agujas. De igual manera, los aceites esenciales de naranja han demostrado tener efectos positivos en la reducción de la ansiedad en los pacientes.
-      .col-lg-5
+      .col-lg-5.col-10.col-md-8
         img(src='@/assets/curso/Tema2/img14.png', alt='')
 
     p.mb-4 Además, muchas esencias poseen propiedades regenerativas, oxigenantes y fortalecedoras del sistema inmunológico. Estas ayudan a prevenir la proliferación de hongos, mutaciones celulares y procesos de oxidación, gracias a su acción antioxidante. Asimismo, son ampliamente utilizadas por sus características antimicrobianas y antibacterianas, ya que permiten reducir de forma significativa la presencia de bacterias insalubres y potencialmente peligrosas en la cavidad oral. Por esta razón, numerosos aceites naturales se incorporan en la formulación de enjuagues bucales.
@@ -205,7 +205,7 @@
     .row.justify-content-center.g-0.mb-4(data-aos='fade-right')
         .col-lg-4.pe-lg-0
           .bg1.h-100
-            img.w-100.h-100(src='@/assets/curso/Tema2/img15.png', alt='')
+            img.w-100.h-100.d-none.d-lg-block(src='@/assets/curso/Tema2/img15.png', alt='')
         .col-lg-8.ps-lg-0
           .bg6.p-4.p-lg-5.h-100
             p.text-white Los aceites esenciales de canela y clavo de olor presentan un efecto inhibitorio sobre la formación de la placa bacteriana dental. En particular, el aceite de clavo de olor actúa como un potente agente antifúngico y antibacteriano, por lo que resulta eficaz en el tratamiento del dolor dental y la sequedad bucal. Sus elevados contenidos de calcio, hierro, fósforo, sodio y vitaminas A y C estimulan la cicatrización, motivo por el cual se utiliza como analgésico tópico.
@@ -215,18 +215,18 @@
     #t_2_2.titulo-segundo.mb-5(data-aos="zoom-in-left")
       h2 2.2 Usos en la industria cosmética y de la perfumería
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos='fade-right')
       .col-lg-8
         p Los aceites esenciales son ampliamente utilizados en la industria cosmética, donde se aprovechan tanto sus aromas como sus propiedades terapéuticas asociadas a la aromaterapia, con el fin de aumentar la eficacia de los productos elaborados. Un ejemplo de ello es el aceite esencial de naranja, empleado en tratamientos destinados a la reducción de la celulitis.s
         .cajon.color-secundario.p-3.p-lg-4.h-100.mb-3 
           p.py-3 En la industria de los champús y productos capilares, los aceites esenciales aportan propiedades específicas para el cuidado de los distintos tipos de cabello. Por ejemplo, el aceite esencial de manzanilla se utiliza comúnmente en productos para cabellos claros, mientras que el aceite esencial de romero se emplea en formulaciones para cabellos oscuros, debido a sus efectos estimulantes y fortalecedores.
         p Por su parte, en la industria de la perfumería, los aceites esenciales desempeñan un papel fundamental, ya que proporcionan aromas intensos y característicos. Generalmente, se combinan con otros compuestos aromáticos para lograr fragancias equilibradas y agradables. 
         p Para la elaboración de perfumes, los aceites esenciales se clasifican en tres categorías principales según su volatilidad y persistencia:
-      .col-lg-4
+      .col-lg-4.col-9.col-md-7
         img(src='@/assets/curso/Tema2/img16.png', alt='')
     
-    .row.justify-content-center.mb-5
-      .col-lg-4.mb-3.mb-lg-0
+    .row.justify-content-center.mb-5(data-aos='fade-right')
+      .col-lg-4.mb-3.mb-lg-0.col-md-6
         .tarjeta.bg7.p-4.h-100
           .row.justify-content-center.mb-3
             .col-12.mb-3
@@ -234,7 +234,7 @@
           h4.text-center Aceites esenciales de nota alta
           p.text-center Son los más volátiles, por lo que constituyen los primeros aromas que se perciben al aplicar el perfume y también los primeros en desaparecer. Entre los ejemplos más comunes se encuentran los aceites esenciales de naranja, limón, menta, eucalipto y romero.
       
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-4.mb-3.mb-lg-0.col-md-6
         .tarjeta.bg7.p-4.h-100
           .row.justify-content-center.mb-3
             .col-12.mb-3
@@ -242,7 +242,7 @@
           h4.text-center Aceites esenciales de nota media
           p.text-center Conforman el corazón del perfume y predominan sobre el resto de las notas. Son los aromas que más perduran y representan el componente principal de la fragancia. Dentro de esta categoría se incluyen aceites esenciales como los de lavanda, jazmín, manzanilla, jengibre y geranio.
 
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-4.mb-3.mb-lg-0.col-md-6
         .tarjeta.bg7.p-4.h-100
           .row.justify-content-center.mb-3
             .col-12.mb-3
@@ -254,7 +254,7 @@
       h5 Tabla 3.
       span Aceites esenciales usados en perfumería 
 
-    .tabla-a.color-acento-botones.mb-5
+    .tabla-a.color-acento-botones.mb-5(data-aos='fade-right')
       table
         thead
           tr
@@ -290,6 +290,153 @@
     separador
     #t_2_3.titulo-segundo.mb-5(data-aos="zoom-in-left")
       h2 2.3 Usos en la industria del jabón y de los ambientadores
+
+
+    .row.justify-content-center.align-items-center.mb-3(data-aos='fade-right')
+      .col-lg-8
+        .row.justify-content-center
+          .col-lg-1.col-3.mb-3.col-md-2
+            img(src='@/assets/curso/Tema2/img17.svg' alt='')
+          .col-lg-11
+            p Los aceites esenciales se utilizan ampliamente en la elaboración de jabones finos, donde se combinan fragancias naturales provenientes de flores, maderas y plantas aromáticas, aportando aromas agradables y propiedades beneficiosas para la piel.
+        p Aunque los geles de baño han reemplazado en gran medida a los jabones en pasta, existe un renovado interés por los jabones sólidos elaborados con ingredientes naturales. Estos productos se caracterizan por no contener sulfatos, detergentes ni fragancias artificiales, y por ofrecer aromas naturales suaves.
+        p Estos jabones se elaboran principalmente a base de glicerina vegetal obtenida del aceite de coco, a la cual se adicionan aceites esenciales y hierbas aromáticas que contribuyen al cuidado, hidratación y protección de la piel.
+        p.mb-5 Entre los aceites esenciales más utilizados en la industria jabonera se encuentran:
+        .row.justify-content-center.mb-3
+          .col-lg-3
+            ol.lista-ol--cuadro
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 1
+                | Romero
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 2
+                | Lavanda
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 3
+                | Rosa
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 4
+                | Tomillo
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 5
+                | Nerolí
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 6
+                | Clavo
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 7
+                | Pino
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 8
+                | Enebro
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 9
+                | Limón
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 10
+                | Menta
+          .col-lg-9.d-none.d-lg-block
+            img(src='@/assets/curso/Tema2/img19.png' alt='')
+      .col-lg-4.col-12
+        img.d-none.d-lg-block(src='@/assets/curso/Tema2/img18.png' alt='')
+        .cajon.color-primario.p-lg-3.h-100.p-4
+          p En la industria de productos de aseo y ambientadores, se emplean principalmente aceites esenciales de citronela, limonaria y lavanda, debido a sus propiedades aromáticas y desinfectantes.
+
+    separador
+    #t_2_4.titulo-segundo.mb-5(data-aos="zoom-in-left")
+      h2 2.4 Usos en la industria alimentaria y de los licores
+
+    .row.justify-content-center.g-0.mb-4(data-aos='fade-right')
+      .col-lg-4.pe-lg-0
+        .bg1.h-100
+          img.w-100.h-100.d-none.d-lg-block(src='@/assets/curso/Tema2/img20.png', alt='')
+      .col-lg-8.ps-lg-0
+        .bg8.p-4.p-lg-5.h-100
+          img.mb-3.col-lg-1.col-3.col-md-2(src='@/assets/curso/Tema2/img21.svg', alt='')
+          p.text-white La creciente preferencia de los consumidores por alimentos naturales ha incrementado el uso de aceites esenciales en la industria alimentaria, especialmente como agentes aromatizantes saludables y libres de compuestos químicos artificiales. Actualmente, es común encontrar productos como aceites, vinagres, encurtidos, embutidos y mieles aromatizadas con plantas como albahaca, romero y orégano.
+          p.text-white Un ejemplo representativo de su aplicación en alimentos es el de una reconocida marca de gaseosa cuya fórmula, compuesta por nueve ingredientes, incluye una mezcla de aceites esenciales como vainilla, canela, clavo, cilantro, nerolí, naranja y lima.
+          p.text-white Asimismo, los aceites esenciales se utilizan en la elaboración de bebidas alcohólicas. Un caso frecuente es el aguardiente, que contiene aceite esencial de anís como componente aromático característico.
+
+
+    separador
+    #t_2_5.titulo-segundo.mb-5(data-aos="zoom-in-left")
+      h2 2.5 Usos en la industria veterinarias
+
+    .row.justify-content-center.align-items-center.mb-2(data-aos='fade-right')
+      .col-lg-6
+        p Los aceites esenciales poseen propiedades antimicrobianas, antioxidantes, antiparasitarias, antiinflamatorias, antidiarreicas y antimicóticas, lo que ha favorecido su uso en la producción pecuaria durante los últimos años. Estos compuestos pueden influir positivamente en la conversión alimenticia y, en algunos casos, mejorar el sabor de la carne.
+        p En la producción de ovejas, cerdos, bovinos y aves de corral, el uso de aceites esenciales contribuye a una mejor nutrición, prevención de enfermedades, fortalecimiento del sistema inmunológico y aumento de la productividad, además de su efecto antioxidante.
+        p No obstante, a pesar de sus beneficios, es fundamental realizar un uso racional y seguro de estos productos, ajustando las dosis según factores específicos propios de cada especie y sistema productivo.
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 7. 
+          span Factores que inciden en la dosis a suministrar 
+        .row.justify-content-center
+          .col-lg-7.col-md-8
+            img(src='@/assets/curso/Tema2/fig7.svg', alt='La dosificación y el uso adecuado de los aceites esenciales en la industria veterinaria dependen de diversos factores, entre ellos la especie animal, las condiciones fisiológicas, la raza, la genética y el tamaño del animal, los cuales deben ser considerados para garantizar un uso seguro y eficaz.')
+
+
+    separador
+    #t_2_6.titulo-segundo.mb-5(data-aos="zoom-in-left")
+      h2 2.6 Usos en la agricultura
+    
+    .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
+      .col-lg-8
+        .cajon.color-primario.p-lg-4.h-100.mb-3.p-4
+          p Los problemas ambientales y de salud humana ocasionados por el uso excesivo de productos químicos para el control de plagas y enfermedades en la mayoría de los cultivos han llevado al ser humano a desarrollar alternativas de control más amigables con el medio ambiente y con su salud. En este sentido, se han encontrado en los extractos de plantas un gran aliado para el tratamiento y erradicación de plagas de forma ambientalmente sostenible, mejorando además la producción, que es uno de sus principales objetivos.
+        p Las propiedades antisépticas, antifúngicas, antibacterianas, entre otras, son las que permiten que algunos aceites esenciales sean utilizados en la agricultura, donde se combinan con efectos biorreguladores y bioinsecticidas para repeler o eliminar las plagas que afectan los cultivos y los alimentos almacenados.
+        p Los aceites esenciales utilizados como bactericidas son:
+        ol.lista-ol--cuadro
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 1
+                | Tomillo
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 2
+                | Clavo
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 3
+                | Salvia
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 4
+                | Mentas
+              li
+                .lista-ol--cuadro__vineta
+                  span.negro 5
+                | Orégano
+      .col-lg-4.col-9.col-md-7
+        img(src='@/assets/curso/Tema2/img22.png', alt='')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
