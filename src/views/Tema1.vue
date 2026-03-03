@@ -308,7 +308,17 @@
             p En síntesis, para obtener aceite esencial de ylang-ylang de calidad extra (materia prima altamente valorada en la industria de la perfumería y cuyo precio puede oscilar entre 100 y 200 dólares por kilogramo) es indispensable recolectar las flores completamente maduras, identificables por su color amarillo intenso, durante las primeras horas del día. Asimismo, estas deben ser sometidas lo más pronto posible al proceso de destilación por arrastre de vapor (hidrodestilación), con el fin de preservar sus propiedades aromáticas y químicas.
         .col-lg-4.col-8.col-md-6
           img(src="@/assets/curso/Tema1/img07.png")
-
+      
+      img(src='@/assets/curso/Tema1/podcast.svg', alt='Texto que describa la imagen')
+      .row.justify-content-center.g-0(data-aos="fade-right").mb-4
+        .col-lg-12
+          .tarjeta.clr--pink.p-4.rounded-0.h-100.bg1
+            .tarjeta.bg-white.p-4
+              TarjetaAudio.color-acento-botones(
+              texto="Podcast: El momento de la recolección"
+              :audio="require('@/assets/curso/Tema1/Podcast_1_CF2_72210086.mp3')"
+            )
+              .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-md-11.col-lg-12.col-12
@@ -350,7 +360,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
               texto="Podcast: El modo de extracción"
-              :audio="require('@/assets/curso/Tema1/prueba.mp3')"
+              :audio="require('@/assets/curso/Tema1/Podcast_2_CF2_72210086.mp3')"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
       
