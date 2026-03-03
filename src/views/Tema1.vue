@@ -110,6 +110,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antisépticas
               p.text-white El marcado poder antiséptico de numerosas esencias convierte a los aceites esenciales en compuestos de alto valor terapéutico, ya que su actividad no se ve significativamente disminuida con el paso del tiempo y varía según su composición química. Esta propiedad se manifiesta principalmente en aceites esenciales ricos en compuestos fenólicos, los cuales presentan elevada capacidad antimicrobiana. La acción antiséptica puede ejercerse tanto en fase vapor como por contacto directo; sin embargo, en este último caso, es indispensable su dilución previa para evitar efectos irritantes sobre la piel y las mucosas.
+              h5.text-white Ejemplos de aceites esenciales 
               ul.lista-ul
                 li
                   p.text-white.mb-0 •	Limón. 
@@ -130,6 +131,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades cicatrizantes
               p.text-white En general, los aceites esenciales con propiedades antisépticas también favorecen la cicatrización, ya que previenen infecciones y crean condiciones adecuadas para la reparación tisular. Algunos aceites esenciales presentan una acción cicatrizante más específica, especialmente aquellos obtenidos de plantas de la familia Lamiaceae, los cuales estimulan los procesos de regeneración y reparación de los tejidos, favoreciendo la cicatrización de úlceras, heridas y llagas cutáneas.
+              h5.text-white Ejemplos de aceites esenciales
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Lavanda. 
@@ -148,6 +150,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antirreumatológicas, antineurálgicas y antiespasmódicas
               p.text-white Diversos aceites esenciales presentan estas propiedades debido a la acción de sus compuestos bioactivos sobre los mediadores de la inflamación. Sustancias como el eugenol, la verbenona y el timol han mostrado efectos antiartríticos y antirreumáticos asociados a la modulación de la síntesis de prostaglandinas, compuestos lipídicos con funciones similares a las hormonas. Estas propiedades permiten su uso complementario en el manejo del dolor articular, muscular y nervioso.
+              h5.text-white Ejemplos de aceites esenciales
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Clavo. 
@@ -168,6 +171,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antiparasitarias
               p.text-white Las propiedades antiparasitarias se manifiestan tanto en la capacidad de repeler insectos como en la acción contra parásitos internos. Algunas esencias actúan como repelentes naturales, mientras que otras poseen actividad antihelmíntica, es decir, actúan frente a parásitos intestinales. No obstante, debido a que la dosis terapéutica puede ser cercana a la dosis tóxica, su uso debe realizarse bajo supervisión profesional.
+              h5.text-white Ejemplos de aceites esenciales
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Tomillo. 
@@ -183,6 +187,9 @@
                   p.text-white.mb-0 • Ajenjo.
                 li
                   p.text-white.mb-0 • Eucalipto.
+                li
+                  p.text-white.mb-0  • Clavo.
+                
 
             .col-lg-4.col-md-8
               figure
@@ -192,6 +199,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antiinflamatorias
               p.text-white Diversos aceites esenciales poseen propiedades antiinflamatorias, lo que los hace adecuados para su uso en productos tópicos destinados al alivio de procesos inflamatorios. Son ampliamente utilizados en cremas, talcos y pomadas, destacándose por su eficacia y baja toxicidad cuando se emplean adecuadamente, lo que permite su uso incluso en formulaciones pediátricas.
+              h5.text-white Ejemplos de aceites esenciales
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Manzanilla. 
@@ -208,6 +216,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antioxidantes
               p.text-white La actividad antioxidante de algunos aceites esenciales contribuye a la neutralización de radicales libres y a la protección frente al daño oxidativo. Esta propiedad resulta de gran interés tanto en aplicaciones terapéuticas como en la industria alimentaria y cosmética, ya que ayuda a prevenir procesos de oxidación y deterioro celular.
+              h5.text-white Ejemplos de aceites esenciales
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Romero. 
@@ -245,8 +254,8 @@
         .col-lg-5.mb-3.col-10
           img(src="@/assets/curso/Tema1/img04.png")
         .col-lg-7
-          p El primer paso en la caracterización de un aceite esencial consiste en la correcta identificación de la fuente vegetal de la cual se obtiene, incluyendo tanto la especie botánica como el órgano de la planta utilizado. Para ello, es indispensable establecer el nombre común o vulgar de la planta (el cual puede variar según la región geográfica) y, de manera fundamental, su nombre botánico o identificación taxonómica, que es universal y no presenta variaciones entre idiomas o localidades.
-          p La identificación taxonómica está conformada por el nombre del género y de la especie, y puede complementarse, cuando corresponde, con la subespecie y la variedad. Por ejemplo, mandarina es el nombre común, mientras que su identificación taxonómica es Citrus reticulata. Este tipo de clasificación permite evitar confusiones derivadas del uso de nombres comunes, ya que existen plantas diferentes que comparten una misma denominación vulgar, así como una misma especie que puede recibir distintos nombres comunes en diversas regiones.
+          p El primer paso en la caracterización de un aceite esencial consiste en la correcta identificación de la fuente vegetal de la cual se obtiene, incluyendo tanto la especie botánica como el órgano de la planta utilizado. Para ello, es indispensable establecer el nombre común o vulgar de la planta (el cual puede variar según la región geográfica) y, de manera fundamental, su nombre botánico #[b o identificación taxonómica], que es universal y no presenta variaciones entre idiomas o localidades.
+          p La identificación taxonómica está conformada por el nombre del género y de la especie, y puede complementarse, cuando corresponde, con la subespecie y la variedad. Por ejemplo, mandarina es el nombre común, mientras que su identificación taxonómica es #[em Citrus reticulata]. Este tipo de clasificación permite evitar confusiones derivadas del uso de nombres comunes, ya que existen plantas diferentes que comparten una misma denominación vulgar, así como una misma especie que puede recibir distintos nombres comunes en diversas regiones.
         .col-lg-12
           p La certificación botánica, por tanto, garantiza la autenticidad del material vegetal empleado y constituye un requisito esencial para asegurar la calidad, seguridad y reproducibilidad de los aceites esenciales obtenidos.
 
@@ -261,12 +270,12 @@
       .row.justify-content-center.g-0.mb-4(data-aos='fade-right')
         .col-lg-8.ps-lg-0
           .cajon.color-primario.p-4.p-lg-5.h-100
-            p Factores como el clima, el tipo de suelo, la altitud, la humedad y las condiciones ambientales propias de cada región influyen de manera directa en la composición química del aceite esencial. Por ejemplo, el aceite esencial de geranio (Pelargonium graveolens) cultivado en la isla de Reunión, cerca de Madagascar, presenta una composición diferente a la obtenida de la misma especie cultivada en China. Estas variaciones son tan significativas que, incluso en el mercado internacional, ambos aceites se comercializan bajo denominaciones distintas, reflejando su origen y perfil bioquímico particular.
+            p Factores como el clima, el tipo de suelo, la altitud, la humedad y las condiciones ambientales propias de cada región influyen de manera directa en la composición química del aceite esencial. Por ejemplo, el aceite esencial de geranio (#[em Pelargonium graveolens]) cultivado en la isla de Reunión, cerca de Madagascar, presenta una composición diferente a la obtenida de la misma especie cultivada en China. Estas variaciones son tan significativas que, incluso en el mercado internacional, ambos aceites se comercializan bajo denominaciones distintas, reflejando su origen y perfil bioquímico particular.
         .col-lg-4.pe-lg-0
           .bg1.h-100
             img.w-100.h-100(src='@/assets/curso/Tema1/img05.png', alt='')
 
-      p.mb-4 Si quieres, puedo ayudarte a unificar el estilo de este apartado con otros criterios de calidad (certificación botánica, quimiotipo, método de extracción, etc.) para que todo el capítulo mantenga una línea homogénea.
+   
 
       .fondot1.p-4.mb-2(data-aos="fade-left") 
         .row.justify-content-center.align-items-center
@@ -282,7 +291,7 @@
           .col-lg-7.col-md-12.p-4
             p.text-white El modo de cultivo permite determinar con precisión si la planta de la cual se obtiene el aceite esencial es de origen silvestre o proviene de un cultivo comercial. Este factor influye directamente en la calidad, pureza y valor terapéutico del aceite obtenido.
             p.text-white Los aceites esenciales procedentes de cultivos ecológicos u orgánicos suelen tener un costo más elevado en comparación con aquellos obtenidos de cultivos tradicionales, en los que se emplean fertilizantes y plaguicidas de origen sintético. En los sistemas de producción ecológica se prioriza el uso de prácticas agrícolas sostenibles, lo que reduce la presencia de residuos químicos y favorece la obtención de aceites más seguros para uso terapéutico.
-            p.text-white Estos aceites pueden identificarse mediante certificaciones específicas, como el sello Bio, que garantiza el cumplimiento de normativas de producción orgánica y facilita su reconocimiento en el mercado.
+            p.text-white Estos aceites pueden identificarse mediante certificaciones específicas, como el sello #[b Bio], que garantiza el cumplimiento de normativas de producción orgánica y facilita su reconocimiento en el mercado.
 
           
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -308,7 +317,7 @@
             h3.bg5.py-2.w-card-text.text-white El órgano destilado
 
       p La composición bioquímica de los aceites esenciales varía en función del órgano o parte de la planta que se utilice para su extracción. Cada estructura vegetal concentra distintos compuestos aromáticos, lo que da lugar a aceites esenciales con características químicas, terapéuticas y organolépticas diferentes, aun cuando provengan de una misma especie.
-      p.mb-4 Un ejemplo representativo es el árbol de naranja (Citrus sinensis), del cual se obtienen distintos aceites esenciales según el órgano destilado:
+      p.mb-4 Un ejemplo representativo es el árbol de naranja (#[em Citrus sinensis]), del cual se obtienen distintos aceites esenciales según el órgano destilado:
       
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
@@ -329,12 +338,23 @@
           p Las características del aceite esencial obtenido están estrechamente relacionadas con los procedimientos físicos o químicos empleados durante su extracción. En muchos casos, la correcta selección y aplicación del método de extracción es un factor determinante para la calidad del producto final.
           p No todos los aceites esenciales pueden obtenerse mediante un mismo método, ya que cada planta y cada órgano vegetal presentan particularidades estructurales y químicas. Es importante señalar que únicamente los métodos de destilación y extracción mecánica permiten obtener aceites esenciales verdaderos, es decir, aquellos con un alto grado de pureza. Otros métodos dan lugar a productos aromáticos que contienen fracciones de aceite esencial acompañadas de residuos o trazas de disolventes.
 
-      .row.justify-content-center.align-items-center.mb-2
+      .row.justify-content-center.align-items-center.mb-4
         .col-lg-12
           .cajon.color-primario.p-4.p-lg-5.h-100
             p Por ejemplo, los aceites esenciales presentes en la cáscara de los frutos cítricos deben obtenerse principalmente mediante métodos de extracción mecánica, ya que el calor empleado en los procesos de destilación puede alterar su composición química. Asimismo, la destilación por arrastre de vapor de agua no es adecuada para la extracción de determinadas esencias florales, debido a la fragilidad de sus compuestos aromáticos.
 
-
+      img(src='@/assets/curso/Tema1/podcast.svg', alt='Texto que describa la imagen')
+      .row.justify-content-center.g-0(data-aos="fade-right").mb-4
+        .col-lg-12
+          .tarjeta.clr--pink.p-4.rounded-0.h-100.bg1
+            .tarjeta.bg-white.p-4
+              TarjetaAudio.color-acento-botones(
+              texto="Podcast: El modo de extracción"
+              :audio="require('@/assets/curso/Tema1/prueba.mp3')"
+            )
+              .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+      
+      
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-md-11.col-lg-12.col-12
           .d-flex.align-items-center.mt-4
@@ -346,11 +366,11 @@
           :style="{'background-image': `url(${require('@/assets/curso/Tema1/img10.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Además de la diversidad vegetal observable entre familias botánicas, géneros y especies, existe una importante variabilidad química dentro de una misma especie vegetal, conocida como quimiotipo. Este concepto hace referencia a una forma de clasificación química, biológica y botánica que identifica la molécula predominante en un aceite esencial puro, lo que permite definir de manera clara y segura sus propiedades terapéuticas.
+          p.mb-0 Además de la diversidad vegetal observable entre familias botánicas, géneros y especies, existe una importante variabilidad química dentro de una misma especie vegetal, conocida como #[b quimiotipo]. Este concepto hace referencia a una forma de clasificación química, biológica y botánica que identifica la molécula predominante en un aceite esencial puro, lo que permite definir de manera clara y segura sus propiedades terapéuticas.
             br
             br
        
-      p.mb-4 El quimiotipo de un aceite esencial se determina mediante un análisis químico denominado cromatografía, técnica que permite identificar y cuantificar las moléculas presentes a través de picos característicos. Cuando un aceite esencial es considerado “quimiotipado”, significa que ha sido sometido a este análisis, evaluando sus características bioquímicas en relación con las condiciones de crecimiento de la planta, tales como el entorno geográfico y el método de cultivo.
+      p.mb-4 El quimiotipo de un aceite esencial se determina mediante un análisis químico denominado #[b cromatografía], técnica que permite identificar y cuantificar las moléculas presentes a través de picos característicos. Cuando un aceite esencial es considerado “quimiotipado”, significa que ha sido sometido a este análisis, evaluando sus características bioquímicas en relación con las condiciones de crecimiento de la planta, tales como el entorno geográfico y el método de cultivo.
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-1.col-3.mb-3.col-md-2
           img(src="@/assets/curso/Tema1/ico2.svg")
@@ -502,7 +522,7 @@
             h3.bg5.py-2.w-card-text.text-white Diferencia entre extracto y aceite esencial
 
       p Los extractos y los aceites esenciales son sustancias aromáticas ampliamente utilizadas; sin embargo, difieren de manera significativa en su origen, método de obtención, composición y propiedades.
-      p Los extractos son ingredientes aromatizantes empleados con frecuencia en la gastronomía y la industria alimentaria, cuyo objetivo principal es aportar el sabor y el aroma característico del ingrediente original. Por su parte, los aceites esenciales son sustancias volátiles de origen natural, obtenidas mediante distintos procesos físicos a partir de hierbas, flores, frutos, semillas, maderas o resinas, y se caracterizan por poseer una composición química compleja y un aroma concentrado y específico.
+      p Los #[b extractos] son ingredientes aromatizantes empleados con frecuencia en la gastronomía y la industria alimentaria, cuyo objetivo principal es aportar el sabor y el aroma característico del ingrediente original. Por su parte, los #[b aceites esenciales] son sustancias volátiles de origen natural, obtenidas mediante distintos procesos físicos a partir de hierbas, flores, frutos, semillas, maderas o resinas, y se caracterizan por poseer una composición química compleja y un aroma concentrado y específico.
       p.mb-4 Las principales diferencias entre ambas sustancias se pueden resumir de la siguiente manera:
 
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos='fade-right')
@@ -524,13 +544,13 @@
         
         .row.justify-content-center(titulo="Características físicas")
           .col-md-12.mb-4.mb-md-0.col-lg-6
-            p #[b Extractos:] contienen compuestos aromáticos disueltos en un medio líquido, conservando tanto aroma como sabor del material vegetal original.
-            p #[b Aceites esenciales:] concentran la esencia aromática de la planta y son responsables del aroma característico de flores, frutos, especias, semillas y hierbas; también se denominan aceites volátiles o etéreos debido a su capacidad de evaporarse fácilmente.
+            p #[b Extractos:] presentan una consistencia líquida o semilíquida influenciada por el disolvente utilizado y pueden presentar carácter graso.
+            p #[b Aceites esenciales:] no son grasos, no se enrancian con el tiempo y se caracterizan por su baja densidad y alta volatilidad.
           .col-md-9.col-lg-6
             figure
               img(src='@/assets/curso/Tema1/ac03.png', alt='')
         
-        .row.justify-content-center(titulo="Método de obtención")
+        .row.justify-content-center(titulo="Estabilidad y uso")
           .col-md-12.mb-4.mb-md-0.col-lg-6
             p #[b Extractos:] suelen ser más estables en soluciones líquidas y se emplean principalmente como aromatizantes en la industria alimentaria.
             p #[b Aceites esenciales:] poseen aplicaciones más amplias, incluyendo usos terapéuticos, cosméticos y farmacológicos, siempre que se utilicen bajo criterios adecuados de seguridad.

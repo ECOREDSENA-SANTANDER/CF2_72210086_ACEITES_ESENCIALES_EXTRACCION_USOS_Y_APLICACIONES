@@ -25,8 +25,8 @@
       <rect id="Rectángulo_454940" data-name="Rectángulo 454940" width="69.836" height="80.539" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1178345" data-name="Grupo 1178345" transform="translate(-186 -12344.785)">
-    <g id="Enmascarar_grupo_1119132" data-name="Enmascarar grupo 1119132" transform="translate(0 4618.785)" clip-path="url(#clip-path)">
+  <g id="Grupo_1178343" data-name="Grupo 1178343" transform="translate(-186 -12761.785)">
+    <g id="Enmascarar_grupo_1119132" data-name="Enmascarar grupo 1119132" transform="translate(0 5035.785)" clip-path="url(#clip-path)">
       <path id="Rectángulo_347472" data-name="Rectángulo 347472" d="M18,0H409.974a0,0,0,0,1,0,0V496.568a0,0,0,0,1,0,0H18a18,18,0,0,1-18-18V18A18,18,0,0,1,18,0Z" transform="translate(186 7726)" fill="#5f4205"/>
       <path id="Trazado_991609" data-name="Trazado 991609" d="M201.4,365.741c-20.769,16.325-40.12,35.835-51.433,60.489s-13.5,55.206-.759,79.065c14.816,27.75,47.294,41.219,77.258,38.58s57.5-18.936,80.927-38.926c14.336-12.234,27.668-26.069,43.761-35.53s36.028-14.077,52.952-6.42" transform="translate(-326.141 7799.359) rotate(-69)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
       <g id="Grupo_1176877" data-name="Grupo 1176877" transform="translate(278.106 8137.959)">
@@ -67,7 +67,7 @@
         </g>
       </g>
       <path id="Trazado_991786" data-name="Trazado 991786" d="M577.323,648.527c-23.128,15.722-53.925,4.428-81.307-1.258-112.864-23.436-228.878,60.043-340.777,32.365-31.605-7.817-63.779-28.221-70.315-60.116-4.127-20.141,2.738-40.73,9.508-60.143l23.895-68.509c7.248-20.783,15.341-42.768,32.8-56.175,26.282-20.185,63.413-13.982,95.976-20.133,30.344-5.732,57.4-22.681,81.659-41.795s46.565-40.743,72.079-58.14,55.205-30.611,86.08-29.985,62.684,17.617,74.2,46.271c9.8,24.392,3.878,51.95,6.065,78.146,2.44,29.224,14.988,56.486,26.4,83.5s22.034,55.5,20.292,84.776-19.054,59.558-47.262,67.577S577.323,648.527,577.323,648.527Z" transform="matrix(-0.966, 0.259, -0.259, -0.966, 580.223, 8600.721)" fill="#cec6b3" opacity="0.07"/>
-      <text id="Far_far_away_behind" data-name="Far far away, behind" transform="translate(229.295 7984.03)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="17">- Habitaciones con humedad relativa alta y </tspan><tspan x="0" y="41">temperatura constante.</tspan><tspan x="0" y="65">- Minima circulación de aire que pueda </tspan><tspan x="0" y="89">afectar el proceso.</tspan><tspan x="0" y="113">- Iluminación e insonorización adecuada </tspan><tspan x="0" y="137">para evitar la distracción del catador.</tspan></text>
+      <text id="Far_far_away_behind" data-name="Far far away, behind" transform="translate(229.295 7984.03)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="17">- Habitaciones con humedad relativa alta y </tspan><tspan x="0" y="41">temperatura constante.</tspan><tspan x="0" y="65">- Mínima circulación de aire que pueda </tspan><tspan x="0" y="89">afectar el proceso.</tspan><tspan x="0" y="113">- Iluminación e insonorización adecuada </tspan><tspan x="0" y="137">para evitar la distracción del catador.</tspan></text>
       <text id="Feature_One" data-name="Feature One" transform="translate(229.572 7944.418)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="107.893" y="21">AMBIENTE</tspan></text>
       <g id="Elipse_13710" data-name="Elipse 13710" transform="translate(321.711 7776.215)" fill="#e5d5ba" stroke="#707070" stroke-width="1">
         <circle cx="65.5" cy="65.5" r="65.5" stroke="none"/>
@@ -108,9 +108,9 @@
         </g>
       </g>
     </g>
-    <g id="Enmascarar_grupo_1119133" data-name="Enmascarar grupo 1119133" transform="translate(0.652 4618.785)" clip-path="url(#clip-path-4)">
+    <g id="Enmascarar_grupo_1119133" data-name="Enmascarar grupo 1119133" transform="translate(0.652 5035.785)" clip-path="url(#clip-path-4)">
       <rect id="Rectángulo_347470" data-name="Rectángulo 347470" width="409.974" height="496.568" transform="translate(595.043 7726)" fill="#9d5a5c"/>
-      <text id="Far_far_away_behind-2" data-name="Far far away, behind" transform="translate(623.615 7984.03)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="17">- Es la persona encargada de evaluar los olores.</tspan><tspan x="0" y="41">- Cualquiera podría hacerlo, sin embargo, </tspan><tspan x="0" y="65">requiere de la sensibilidad hacia estos estímulos.</tspan><tspan x="0" y="89">- En las escuelas se mejora la planificación de la </tspan><tspan x="0" y="113">memoria olfativa y se amplía el espectro de </tspan><tspan x="0" y="137">posibilidades.</tspan><tspan x="0" y="161">- La capacidad de memorizar la experiencia en el </tspan></text>
+      <text id="Far_far_away_behind-2" data-name="Far far away, behind" transform="translate(623.615 7984.03)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="17">- Es la persona encargada de evaluar los olores.</tspan><tspan x="0" y="41">- Cualquiera podría hacerlo, sin embargo, </tspan><tspan x="0" y="65">requiere de la sensibilidad hacia estos estímulos.</tspan><tspan x="0" y="89">- En las escuelas se mejora la planificación de la </tspan><tspan x="0" y="113">memoria olfativa y se amplía el espectro de </tspan><tspan x="0" y="137">posibilidades.</tspan><tspan x="0" y="161">- La capacidad de memorizar la experiencia en el </tspan><tspan x="0" y="185">proceso es una condición innata y fundamental.</tspan></text>
       <text id="Feature_One-2" data-name="Feature One" transform="translate(642.576 7944.418)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="112.244" y="21">CATADOR</tspan></text>
       <path id="Trazado_991788" data-name="Trazado 991788" d="M183.736,365.741c-14.74,12.838-28.474,28.182-36.5,47.57s-9.58,43.416-.539,62.179c10.516,21.824,33.566,32.416,54.832,30.341s40.81-14.892,57.436-30.613c10.175-9.621,19.637-20.5,31.058-27.941s25.57-11.07,37.581-5.049" transform="translate(309.156 7712.838) rotate(-69)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
       <g id="Grupo_1176878" data-name="Grupo 1176878" transform="translate(732.641 8127.959)">
@@ -174,7 +174,7 @@
         </g>
       </g>
     </g>
-    <g id="Enmascarar_grupo_1119134" data-name="Enmascarar grupo 1119134" transform="translate(0.652 4618.785)" clip-path="url(#clip-path-7)">
+    <g id="Enmascarar_grupo_1119134" data-name="Enmascarar grupo 1119134" transform="translate(0.652 5035.785)" clip-path="url(#clip-path-7)">
       <path id="Trazado_999240" data-name="Trazado 999240" d="M0,0H391.974a18,18,0,0,1,18,18V478.568a18,18,0,0,1-18,18H0Z" transform="translate(1004.025 7726)" fill="#b0c0d2" opacity="0.76"/>
       <text id="Far_far_away_behind-3" data-name="Far far away, behind" transform="translate(1047.598 7984.03)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="17">- Para la toma de muestras se emplean </tspan><tspan x="0" y="41">tirillas de un papel especial que es </tspan><tspan x="0" y="65">absorbente y sin ningún aditivo que permite </tspan><tspan x="0" y="89">la rápida penetración del líquido.</tspan><tspan x="0" y="113">- El tamaño de estas tirillas es de 12 a 15 cm </tspan><tspan x="0" y="137">por 0.5 a 1 cm.</tspan></text>
       <text id="Feature_One-3" data-name="Feature One" transform="translate(1051.559 7944.418)" fill="#12263f" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="115.579" y="21">TÉCNICA</tspan></text>

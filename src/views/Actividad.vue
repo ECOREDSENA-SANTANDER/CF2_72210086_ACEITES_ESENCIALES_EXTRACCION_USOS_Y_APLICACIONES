@@ -20,10 +20,10 @@ export default {
         'Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Verificar la comprensión de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
+        '<b>Objetivo:</b> verificar la comprensión de las propiedades y aplicaciones de los aceites esenciales de las plantas.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,

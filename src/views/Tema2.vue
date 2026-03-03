@@ -56,7 +56,7 @@
                 img(src='@/assets/curso/Tema2/img06.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               h4 Sesquiterpenlactonas
-              p Sustancias presentes en especies de la familia Asteraceae, con múltiples propiedades, entre ellas: antimicrobianas, citotóxicas, antiinflamatorias, anticancerígenas, antivirales y antifúngicas. Además, pueden generar efectos sobre el sistema nervioso central y cardiovascular, así como una importante potencia alergénica. Se encuentran en especies del género Calea.
+              p Sustancias presentes en especies de la familia Asteraceae, con múltiples propiedades, entre ellas: antimicrobianas, citotóxicas, antiinflamatorias, anticancerígenas, antivirales y antifúngicas. Además, pueden generar efectos sobre el sistema nervioso central y cardiovascular, así como una importante potencia alergénica. Se encuentran en especies del género #[em Calea].
 
           .row.justify-content-center(titulo="")
             .col-lg-6.col-md-9.mb-3
@@ -88,7 +88,7 @@
                 img(src='@/assets/curso/Tema2/img10.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               h4 Cetonas
-              p Las cetonas, como la tuyona encontrada en el aceite esencial de Thuja (especie norteamericana de ciprés), confieren propiedades calmantes, regenerativas y cicatrizantes del tejido cutáneo. No obstante, pueden resultar tóxicas si su uso no es moderado, por lo que algunos aceites que las contienen están contraindicados en mujeres embarazadas.
+              p Las cetonas, como la tuyona encontrada en el aceite esencial de #[em Thuja] (especie norteamericana de ciprés), confieren propiedades calmantes, regenerativas y cicatrizantes del tejido cutáneo. No obstante, pueden resultar tóxicas si su uso no es moderado, por lo que algunos aceites que las contienen están contraindicados en mujeres embarazadas.
 
           .row.justify-content-center(titulo="")
             .col-lg-6.col-md-9.mb-3
@@ -129,64 +129,64 @@
         tbody
           tr.bg2.text-center
             th.h4 Terpenos hidrocarbonados
-            td Limón, pino, anís
-            td Antisépticos, energizantes, tonificantes
-            td Activadores circulatorios y antigripales
+            td Limón, pino, anís.
+            td Antisépticos, energizantes, tonificantes.
+            td Activadores circulatorios y antigripales.
           tr.text-center
             th.h4 Cineol
-            td Eucalipto, romero, menta
-            td Expectorante, estimulante cognitivo
-            td Estimula memoria y aprendizaje
+            td Eucalipto, romero, menta.
+            td Expectorante, estimulante cognitivo.
+            td Estimula memoria y aprendizaje.
           tr.bg2
             th.h4 Hidrocarburos sesquiterpénicos
-            td Manzanilla, ajenjo
-            td Antiinflamatorios, antialérgicos
-            td Contienen camazuleno
+            td Manzanilla, ajenjo.
+            td Antiinflamatorios, antialérgicos.
+            td Contienen camazuleno.
           tr
             th.h4 Sesquiterpenoles y sesquiterpenos
-            td Vetiver
-            td Antisépticos, antiinflamatorios, calmantes
-            td Uso terapéutico y cosmético
+            td Vetiver.
+            td Antisépticos, antiinflamatorios, calmantes.
+            td Uso terapéutico y cosmético.
           tr.bg2
             th.h4 Sesquiterpenlactonas
-            td Calea (Asteraceae)
-            td Antimicrobianas, antivirales, citotóxicas
-            td Alta potencia alergénica
+            td Calea (Asteraceae).
+            td Antimicrobianas, antivirales, citotóxicas.
+            td Alta potencia alergénica.
           tr
             th.h4 Alcoholes y ésteres
-            td Lavanda, salvia, palo de rosa
-            td Antiinfecciosos, reguladores hormonales
-            td Muy usados en aromaterapia
+            td Lavanda, salvia, palo de rosa.
+            td Antiinfecciosos, reguladores hormonales.
+            td Muy usados en aromaterapia.
           tr.bg2
             th.h4 Aldehídos
-            td Hierba de limón, citronela
-            td Antivirales, antisépticos, sedantes
-            td Uso frecuente en infecciones
+            td Hierba de limón, citronela.
+            td Antivirales, antisépticos, sedantes.
+            td Uso frecuente en infecciones.
           tr
             th.h4 Aldehídos aromáticos
-            td Canela, clavo, eucalipto
-            td Antiinfecciosos, antibacterianos
-            td Irritantes en altas dosis
+            td Canela, clavo, eucalipto.
+            td Antiinfecciosos, antibacterianos.
+            td Irritantes en altas dosis.
           tr.bg2
             th.h4 Cetonas
-            td Thuja
-            td Calmantes, regenerativas, cicatrizantes
-            td Pueden ser tóxicas
+            td #[em Thuja].
+            td Calmantes, regenerativas, cicatrizantes.
+            td Pueden ser tóxicas.
           tr
             th.h4 Fenoles
-            td Canela, clavo de olor
-            td Antisépticos, desinfectantes
-            td Irritantes y hepatotóxicos
+            td Canela, clavo de olor.
+            td Antisépticos, desinfectantes.
+            td Irritantes y hepatotóxicos.
           tr.bg2
             th.h4 Fenilpropanos
-            td Albahaca
-            td Digestivos, antiespasmódicos
-            td Útiles en trastornos digestivos
+            td Albahaca.
+            td Digestivos, antiespasmódicos.
+            td Útiles en trastornos digestivos.
           tr
             th.h4 Ésteres
-            td Geranio, lavanda
-            td Sedantes, antiespasmódicos
-            td Suaves y bien tolerados
+            td Geranio, lavanda.
+            td Sedantes, antiespasmódicos.
+            td Suaves y bien tolerados.
 
     separador
     #t_2_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
@@ -209,7 +209,7 @@
         .col-lg-8.ps-lg-0
           .bg6.p-4.p-lg-5.h-100
             p.text-white Los aceites esenciales de canela y clavo de olor presentan un efecto inhibitorio sobre la formación de la placa bacteriana dental. En particular, el aceite de clavo de olor actúa como un potente agente antifúngico y antibacteriano, por lo que resulta eficaz en el tratamiento del dolor dental y la sequedad bucal. Sus elevados contenidos de calcio, hierro, fósforo, sodio y vitaminas A y C estimulan la cicatrización, motivo por el cual se utiliza como analgésico tópico.
-            p.text-white Por otra parte, el aceite esencial de eucalipto se emplea en tratamientos selladores y como solvente en rellenos de conductos radiculares, debido a sus propiedades antimicrobianas. Finalmente, el aceite de árbol de té es utilizado como agente antifúngico y antiséptico gracias a sus propiedades curativas y desinfectantes, siendo especialmente útil en el tratamiento de la candidiasis oral, una afección causada por la proliferación excesiva del microorganismo bucal Candida.
+            p.text-white Por otra parte, el aceite esencial de eucalipto se emplea en tratamientos selladores y como solvente en rellenos de conductos radiculares, debido a sus propiedades antimicrobianas. Finalmente, el aceite de árbol de té es utilizado como agente antifúngico y antiséptico gracias a sus propiedades curativas y desinfectantes, siendo especialmente útil en el tratamiento de la candidiasis oral, una afección causada por la proliferación excesiva del microorganismo bucal #[em Candida].
         
     separador
     #t_2_2.titulo-segundo.mb-5(data-aos="zoom-in-left")
@@ -217,7 +217,7 @@
 
     .row.justify-content-center.align-items-center.mb-3(data-aos='fade-right')
       .col-lg-8
-        p Los aceites esenciales son ampliamente utilizados en la industria cosmética, donde se aprovechan tanto sus aromas como sus propiedades terapéuticas asociadas a la aromaterapia, con el fin de aumentar la eficacia de los productos elaborados. Un ejemplo de ello es el aceite esencial de naranja, empleado en tratamientos destinados a la reducción de la celulitis.s
+        p Los aceites esenciales son ampliamente utilizados en la industria cosmética, donde se aprovechan tanto sus aromas como sus propiedades terapéuticas asociadas a la aromaterapia, con el fin de aumentar la eficacia de los productos elaborados. Un ejemplo de ello es el aceite esencial de naranja, empleado en tratamientos destinados a la reducción de la celulitis.
         .cajon.color-secundario.p-3.p-lg-4.h-100.mb-3 
           p.py-3 En la industria de los champús y productos capilares, los aceites esenciales aportan propiedades específicas para el cuidado de los distintos tipos de cabello. Por ejemplo, el aceite esencial de manzanilla se utiliza comúnmente en productos para cabellos claros, mientras que el aceite esencial de romero se emplea en formulaciones para cabellos oscuros, debido a sus efectos estimulantes y fortalecedores.
         p Por su parte, en la industria de la perfumería, los aceites esenciales desempeñan un papel fundamental, ya que proporcionan aromas intensos y característicos. Generalmente, se combinan con otros compuestos aromáticos para lograr fragancias equilibradas y agradables. 
@@ -275,7 +275,7 @@
             td.text-left Este aceite se obtiene de la madera y la corteza del árbol de cedro. Su aroma amaderado y profundo es altamente valorado y demandado por la industria de la perfumería, especialmente en fragancias de notas secas y persistentes.
           tr.bg2
             th.h4 Aceite de jazmín
-            td.text-left Se extrae de las flores blancas del jazmín, las cuales suelen abrirse durante la noche. Produce un aroma intenso y elegante, lo que lo convierte en un ingrediente básico de perfumes femeninos reconocidos, como #[em Chanel] Nº 5 y #[em Eau de Sauvage].
+            td.text-left Se extrae de las flores blancas del jazmín, las cuales suelen abrirse durante la noche. Produce un aroma intenso y elegante, lo que lo convierte en un ingrediente básico de perfumes femeninos reconocidos, como Chanel Nº 5 y Eau de Sauvage.
           tr
             th.h4 Aceite de limón o citronela
             td.text-left Son aceites esenciales cítricos con características aromáticas similares. Aportan dulzor y frescura a las fragancias, lo que los hace ideales para notas altas en perfumes y productos cosméticos.
@@ -324,7 +324,7 @@
               li
                 .lista-ol--cuadro__vineta
                   span.negro 5
-                | Nerolí
+                | Neroli
               li
                 .lista-ol--cuadro__vineta
                   span.negro 6
@@ -364,7 +364,7 @@
         .bg8.p-4.p-lg-5.h-100
           img.mb-3.col-lg-1.col-3.col-md-2(src='@/assets/curso/Tema2/img21.svg', alt='')
           p.text-white La creciente preferencia de los consumidores por alimentos naturales ha incrementado el uso de aceites esenciales en la industria alimentaria, especialmente como agentes aromatizantes saludables y libres de compuestos químicos artificiales. Actualmente, es común encontrar productos como aceites, vinagres, encurtidos, embutidos y mieles aromatizadas con plantas como albahaca, romero y orégano.
-          p.text-white Un ejemplo representativo de su aplicación en alimentos es el de una reconocida marca de gaseosa cuya fórmula, compuesta por nueve ingredientes, incluye una mezcla de aceites esenciales como vainilla, canela, clavo, cilantro, nerolí, naranja y lima.
+          p.text-white Un ejemplo representativo de su aplicación en alimentos es el de una reconocida marca de gaseosa cuya fórmula, compuesta por nueve ingredientes, incluye una mezcla de aceites esenciales como vainilla, canela, clavo, cilantro, neroli, naranja y lima.
           p.text-white Asimismo, los aceites esenciales se utilizan en la elaboración de bebidas alcohólicas. Un caso frecuente es el aguardiente, que contiene aceite esencial de anís como componente aromático característico.
 
 

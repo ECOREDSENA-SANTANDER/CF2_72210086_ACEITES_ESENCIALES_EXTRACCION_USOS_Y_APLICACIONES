@@ -1,7 +1,7 @@
 export default {
   global: {
     Name:
-      'Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa.',
+      'Propiedades y aplicaciones de los aceites esenciales de plantas aromáticas: caracterización y evaluación olfativa',
     Description:
       'Los aceites esenciales de plantas aromáticas son compuestos volátiles naturales con propiedades aromáticas y funcionales. Su caracterización permite identificar su origen, composición y calidad, mientras que la evaluación olfativa analiza la intensidad y el perfil del aroma. Estas características hacen posible su aplicación en cosmética, perfumería, industria alimentaria, odontología y productos de aseo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -110,11 +110,7 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -141,40 +137,65 @@ export default {
     {
       termino: 'Aceites esenciales',
       significado:
-        'Sustancias volátiles naturales de plantas aromáticas con propiedades aromáticas y funcionales.',
+        'sustancias volátiles de origen vegetal responsables del aroma característico de las plantas, con diversas propiedades terapéuticas y funcionales.',
+    },
+    {
+      termino: 'Antiinflamatorio',
+      significado:
+        'propiedad que permite reducir la inflamación y aliviar procesos inflamatorios en tejidos.',
+    },
+    {
+      termino: 'Antimicrobiano',
+      significado:
+        'capacidad de una sustancia para inhibir el crecimiento de microorganismos como bacterias y hongos.',
     },
     {
       termino: 'Aromaterapia',
       significado:
-        'Aprovechamiento de las propiedades farmacológicas de los aceites esenciales.',
+        'práctica terapéutica que utiliza aceites esenciales para promover el bienestar físico, mental y emocional mediante la estimulación olfativa.',
+    },
+    {
+      termino: 'Caracterización',
+      significado:
+        'proceso mediante el cual se identifican las propiedades físicas, químicas y organolépticas de un aceite esencial.',
+    },
+    {
+      termino: 'Compuestos volátiles',
+      significado:
+        'moléculas químicas que se evaporan fácilmente y son responsables del aroma de los aceites esenciales.',
     },
     {
       termino: 'Evaluación olfativa',
       significado:
-        'Proceso de análisis de la intensidad y el perfil del aroma realizado por expertos denominados “narices”.',
+        'análisis sensorial que permite determinar la calidad, intensidad y perfil aromático de un aceite esencial.',
     },
     {
-      termino: 'Identificación taxonómica',
+      termino: 'Industria alimentaria',
       significado:
-        'Nombre botánico universal de una planta, conformado por el género y la especie, que no varía entre regiones.',
+        'área productiva que emplea aceites esenciales como saborizantes y aromatizantes naturales en alimentos y bebidas.',
+    },
+    {
+      termino: 'Industria cosmética',
+      significado:
+        'sector que utiliza aceites esenciales en la elaboración de productos para el cuidado de la piel, el cabello y la estética corporal.',
+    },
+    {
+      termino: 'Perfumería',
+      significado:
+        'industria dedicada a la elaboración de fragancias, donde los aceites esenciales constituyen la base aromática principal.',
     },
     {
       termino: 'Propiedades farmacológicas',
       significado:
-        'Efectos biológicos de los aceites esenciales, como acción antimicrobiana, antiinflamatoria, antioxidante o analgésica.',
-    },
-    {
-      termino: 'Quimiotipo',
-      significado:
-        'Clasificación química que identifica la molécula predominante en un aceite esencial puro.',
+        'efectos biológicos de los aceites esenciales, como acción antimicrobiana, antiinflamatoria, antioxidante o analgésica.',
     },
     {
       termino: 'Uso terapéutico',
       significado:
-        'Aplicación de los aceites esenciales con fines preventivos o complementarios en el cuidado de la salud.',
+        'aplicación de los aceites esenciales con fines preventivos o complementarios en el cuidado de la salud.',
     },
   ],
-  complementario: [],
+
   referencias: [
     {
       referencia:
@@ -218,8 +239,8 @@ export default {
           centro: 'Centro para la Formación Cafetera - Regional Caldas',
         },
         {
-          nombre: '',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaludadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -248,12 +269,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
