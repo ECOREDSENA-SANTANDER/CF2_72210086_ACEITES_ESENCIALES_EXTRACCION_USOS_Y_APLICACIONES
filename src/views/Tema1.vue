@@ -430,7 +430,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 4.
             span  Clasificación perceptual de los olores
-          img(src='@/assets/curso/Tema1/fig4.svg', alt='Clasificación perceptual de los olores, organizada en diez categorías sensoriales generales, incluyendo notas florales, leñosas, frutales, químicas, mentoladas, dulces, cítricas y olores desagradables como rancio y descompuesto.')
+          img(src='@/assets/curso/Tema1/fig4.png', alt='Clasificación perceptual de los olores, organizada en diez categorías sensoriales generales, incluyendo notas florales, leñosas, frutales, químicas, mentoladas, dulces, cítricas y olores desagradables como rancio y descompuesto.')
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-md-11.col-lg-12.col-12
