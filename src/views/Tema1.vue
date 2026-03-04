@@ -110,7 +110,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antisépticas
               p.text-white El marcado poder antiséptico de numerosas esencias convierte a los aceites esenciales en compuestos de alto valor terapéutico, ya que su actividad no se ve significativamente disminuida con el paso del tiempo y varía según su composición química. Esta propiedad se manifiesta principalmente en aceites esenciales ricos en compuestos fenólicos, los cuales presentan elevada capacidad antimicrobiana. La acción antiséptica puede ejercerse tanto en fase vapor como por contacto directo; sin embargo, en este último caso, es indispensable su dilución previa para evitar efectos irritantes sobre la piel y las mucosas.
-              h5.text-white Ejemplos de aceites esenciales 
+              h5.text-white Ejemplos de aceites esenciales:
               ul.lista-ul
                 li
                   p.text-white.mb-0 •	Limón. 
@@ -131,7 +131,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades cicatrizantes
               p.text-white En general, los aceites esenciales con propiedades antisépticas también favorecen la cicatrización, ya que previenen infecciones y crean condiciones adecuadas para la reparación tisular. Algunos aceites esenciales presentan una acción cicatrizante más específica, especialmente aquellos obtenidos de plantas de la familia Lamiaceae, los cuales estimulan los procesos de regeneración y reparación de los tejidos, favoreciendo la cicatrización de úlceras, heridas y llagas cutáneas.
-              h5.text-white Ejemplos de aceites esenciales
+              h5.text-white Ejemplos de aceites esenciales:
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Lavanda. 
@@ -150,7 +150,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antirreumatológicas, antineurálgicas y antiespasmódicas
               p.text-white Diversos aceites esenciales presentan estas propiedades debido a la acción de sus compuestos bioactivos sobre los mediadores de la inflamación. Sustancias como el eugenol, la verbenona y el timol han mostrado efectos antiartríticos y antirreumáticos asociados a la modulación de la síntesis de prostaglandinas, compuestos lipídicos con funciones similares a las hormonas. Estas propiedades permiten su uso complementario en el manejo del dolor articular, muscular y nervioso.
-              h5.text-white Ejemplos de aceites esenciales
+              h5.text-white Ejemplos de aceites esenciales:
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Clavo. 
@@ -171,7 +171,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antiparasitarias
               p.text-white Las propiedades antiparasitarias se manifiestan tanto en la capacidad de repeler insectos como en la acción contra parásitos internos. Algunas esencias actúan como repelentes naturales, mientras que otras poseen actividad antihelmíntica, es decir, actúan frente a parásitos intestinales. No obstante, debido a que la dosis terapéutica puede ser cercana a la dosis tóxica, su uso debe realizarse bajo supervisión profesional.
-              h5.text-white Ejemplos de aceites esenciales
+              h5.text-white Ejemplos de aceites esenciales:
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Tomillo. 
@@ -199,7 +199,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antiinflamatorias
               p.text-white Diversos aceites esenciales poseen propiedades antiinflamatorias, lo que los hace adecuados para su uso en productos tópicos destinados al alivio de procesos inflamatorios. Son ampliamente utilizados en cremas, talcos y pomadas, destacándose por su eficacia y baja toxicidad cuando se emplean adecuadamente, lo que permite su uso incluso en formulaciones pediátricas.
-              h5.text-white Ejemplos de aceites esenciales
+              h5.text-white Ejemplos de aceites esenciales:
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Manzanilla. 
@@ -216,7 +216,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Propiedades antioxidantes
               p.text-white La actividad antioxidante de algunos aceites esenciales contribuye a la neutralización de radicales libres y a la protección frente al daño oxidativo. Esta propiedad resulta de gran interés tanto en aplicaciones terapéuticas como en la industria alimentaria y cosmética, ya que ayuda a prevenir procesos de oxidación y deterioro celular.
-              h5.text-white Ejemplos de aceites esenciales
+              h5.text-white Ejemplos de aceites esenciales:
               ul.lista-ul
                 li
                   p.text-white.mb-0 • Romero. 
