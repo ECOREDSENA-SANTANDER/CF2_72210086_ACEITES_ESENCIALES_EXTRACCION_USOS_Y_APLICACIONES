@@ -502,7 +502,7 @@
             .col-lg-7.mb-0.mb-md-0.col-md-12
               h4.text-white Información en el etiquetado
               p.mb-5.text-white #[b Aceites esenciales naturales:] incluyen el nombre común y el nombre botánico de la planta de origen; si están diluidos, especifican el porcentaje de concentración.
-              p.text-white #[b Esencias sintéticas:] generalmente no presentan información botánica detallada ni especificación de concentración
+              p.text-white #[b Esencias sintéticas:] generalmente no presentan información botánica detallada ni especificación de concentración.
             .col-lg-4.col-md-8
               figure
               img(src='@/assets/curso/Tema1/sli05.png', alt='')
