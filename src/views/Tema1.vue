@@ -305,7 +305,7 @@
           p En determinadas especies vegetales, las características y la calidad de los aceites esenciales están directamente relacionadas con el estado de desarrollo de la planta. Dependiendo de la especie, la recolección debe realizarse antes, durante o después del periodo de floración, ya que en cada una de estas etapas la concentración y proporción de los compuestos volátiles puede variar significativamente.
           p.mb-4 De igual manera, la hora del día en que se recolectan las estructuras vegetales influye de forma determinante en la composición química del aceite esencial. Un ejemplo representativo es el caso de las flores de #[em ylang-ylang] (Cananga odorata), de las cuales se obtiene un aceite esencial de calidad extra cuando la recolección se realiza durante las primeras horas de la mañana. A medida que avanza el día, la concentración de ciertos compuestos responsables de esta alta calidad disminuye progresivamente.
           .cajon.color-primario.p-4.p-lg-5.h-100
-            p En síntesis, para obtener aceite esencial de ylang-ylang de calidad extra (materia prima altamente valorada en la industria de la perfumería y cuyo precio puede oscilar entre 100 y 200 dólares por kilogramo) es indispensable recolectar las flores completamente maduras, identificables por su color amarillo intenso, durante las primeras horas del día. Asimismo, estas deben ser sometidas lo más pronto posible al proceso de destilación por arrastre de vapor (hidrodestilación), con el fin de preservar sus propiedades aromáticas y químicas.
+            p En síntesis, para obtener aceite esencial de ylang-ylang de calidad extra (materia prima altamente valorada en la industria de la perfumería y cuyo precio puede oscilar entre 100 y 200 dólares por kilogramo), es indispensable recolectar las flores completamente maduras, identificables por su color amarillo intenso, durante las primeras horas del día. Asimismo, estas deben ser sometidas lo más pronto posible al proceso de destilación por arrastre de vapor (hidrodestilación), con el fin de preservar sus propiedades aromáticas y químicas.
         .col-lg-4.col-8.col-md-6
           img(src="@/assets/curso/Tema1/img07.png")
       
@@ -315,7 +315,7 @@
           .tarjeta.clr--pink.p-4.rounded-0.h-100.bg1
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
-              texto="Podcast: El momento de la recolección"
+              texto="<i>Podcast</i>: El momento de la recolección"
               :audio="require('@/assets/curso/Tema1/Podcast_1_CF2_72210086.mp3')"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -329,9 +329,31 @@
       p La composición bioquímica de los aceites esenciales varía en función del órgano o parte de la planta que se utilice para su extracción. Cada estructura vegetal concentra distintos compuestos aromáticos, lo que da lugar a aceites esenciales con características químicas, terapéuticas y organolépticas diferentes, aun cuando provengan de una misma especie.
       p.mb-4 Un ejemplo representativo es el árbol de naranja (#[em Citrus sinensis]), del cual se obtienen distintos aceites esenciales según el órgano destilado:
       
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-10
-          img(src="@/assets/curso/Tema1/img08.svg")
+      .row.justify-content-center.align-items-stretch.mb-4
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-primario.p-5.h-100.w-100
+            .tarjeta-numerada__numero
+              .h2 1
+            p.text-center 
+              b Aceite de naranja
+            p.text-center Se obtiene a partir de la cáscara del fruto.
+
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-secundario.p-5.h-100.w-100
+            .tarjeta-numerada__numero
+              .h2 2
+            p.text-center 
+              b Aceite de #[em petitgrain] 
+            p.text-center Se extrae de las hojas del árbol.
+
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-acento-contenido.p-5.h-100.w-100
+            .tarjeta-numerada__numero
+              .h2 3
+            p.text-center 
+              b Aceite de azahar o neroli
+            p.text-center Se obtiene de las flores.
+
 
       p Esta diferenciación permite comprender la importancia de especificar el órgano vegetal utilizado, ya que determina tanto la composición química como el uso terapéutico del aceite esencial.
       
@@ -359,7 +381,7 @@
           .tarjeta.clr--pink.p-4.rounded-0.h-100.bg1
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
-              texto="Podcast: El modo de extracción"
+              texto="<i>Podcast</i>: El modo de extracción"
               :audio="require('@/assets/curso/Tema1/Podcast_2_CF2_72210086.mp3')"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

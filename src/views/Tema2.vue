@@ -136,7 +136,7 @@
             th.h4 Cineol
             td Eucalipto, romero, menta.
             td Expectorante, estimulante cognitivo.
-            td Estimula memoria y aprendizaje.
+            td Estimula la memoria y aprendizaje.
           tr.bg2
             th.h4 Hidrocarburos sesquiterpénicos
             td Manzanilla, ajenjo.
@@ -169,7 +169,7 @@
             td Irritantes en altas dosis.
           tr.bg2
             th.h4 Cetonas
-            td #[em Thuja].
+            td Thuja.
             td Calmantes, regenerativas, cicatrizantes.
             td Pueden ser tóxicas.
           tr
@@ -308,43 +308,43 @@
               li
                 .lista-ol--cuadro__vineta
                   span.negro 1
-                | Romero
+                | Romero.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 2
-                | Lavanda
+                | Lavanda.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 3
-                | Rosa
+                | Rosa.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 4
-                | Tomillo
+                | Tomillo.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 5
-                | Neroli
+                | Neroli.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 6
-                | Clavo
+                | Clavo.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 7
-                | Pino
+                | Pino.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 8
-                | Enebro
+                | Enebro.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 9
-                | Limón
+                | Limón.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 10
-                | Menta
+                | Menta.
           .col-lg-9.d-none.d-lg-block
             img(src='@/assets/curso/Tema2/img19.png' alt='')
       .col-lg-4.col-12
