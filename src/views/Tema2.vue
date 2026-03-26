@@ -400,23 +400,23 @@
               li
                 .lista-ol--cuadro__vineta
                   span.negro 1
-                | Tomillo
+                | Tomillo.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 2
-                | Clavo
+                | Clavo.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 3
-                | Salvia
+                | Salvia.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 4
-                | Mentas
+                | Mentas.
               li
                 .lista-ol--cuadro__vineta
                   span.negro 5
-                | Orégano
+                | Orégano.
       .col-lg-4.col-9.col-md-7
         img(src='@/assets/curso/Tema2/img22.png', alt='')
 
